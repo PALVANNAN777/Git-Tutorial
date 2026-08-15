@@ -1,1 +1,6 @@
 Panimalar Engineering college
+
+| Command                | Meaning                                 | Safety           |
+| ---------------------- | --------------------------------------- | ---------------- |
+| `git branch -d master` | Delete only if fully merged             | 🟢 Safe          |
+| `git branch -D master` | Force delete regardless of merge status | 🔴 Use carefully |
